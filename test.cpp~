@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include "sqlite3.h"
+#include <iostream>
+using namespace std;
+//INSERT, DELETE, UPDATE
+int main()
+{
+  std::cout << "Hello!" << std::endl;
+
+  sqlite3 *db;
+  const char* filename = "test.db";
+  //int rc = sqlite3_open(filename, &db);
+  //if(rc)
+    {
+      cout << "Successfully opened database!" << endl;
+    }
+
+
+}
